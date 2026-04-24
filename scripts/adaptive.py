@@ -6,8 +6,10 @@ class KnowledgeTracer:
         # BKT Parameters: P(initial), P(learn), P(guess), P(slip)
         self.skills = {
             "counting": {"p_know": 0.3, "p_learn": 0.1, "p_guess": 0.2, "p_slip": 0.1},
+            "number_sense": {"p_know": 0.3, "p_learn": 0.1, "p_guess": 0.2, "p_slip": 0.1},
             "addition": {"p_know": 0.2, "p_learn": 0.05, "p_guess": 0.2, "p_slip": 0.1},
-            "subtraction": {"p_know": 0.1, "p_learn": 0.05, "p_guess": 0.2, "p_slip": 0.1}
+            "subtraction": {"p_know": 0.1, "p_learn": 0.05, "p_guess": 0.2, "p_slip": 0.1},
+            "word_problems": {"p_know": 0.1, "p_learn": 0.05, "p_guess": 0.2, "p_slip": 0.1}
         }
 
     def update(self, skill, is_correct):

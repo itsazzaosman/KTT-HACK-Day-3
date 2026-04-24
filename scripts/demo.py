@@ -18,6 +18,10 @@ init_db()
 
 kt = KnowledgeTracer()
 current_skill_state = "counting"
+import whisper
+
+# Load the model once at the top of the script
+asr_model = whisper.load_model("tiny")
 
 # Load the curriculum
 CURRICULUM_PATH = "data/T3.1_Math_Tutor/curriculum_full.json"
