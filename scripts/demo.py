@@ -140,6 +140,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
             mic_input = gr.Audio(sources=["microphone"], type="filepath", label="Tap to Answer")
             feedback_text = gr.Textbox(label="Tutor Feedback")
             
+    # Actions
 # Actions
     next_btn.click(
         fn=load_random_item,
