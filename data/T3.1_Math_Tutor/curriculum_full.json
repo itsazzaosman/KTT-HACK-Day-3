@@ -218,7 +218,11 @@
     "stem_fr": "Quel nombre est plus grand: 7 ou 11?",
     "stem_kin": "Ni iyihe nimero nini: 7 cyangwa 11?",
     "visual": "compare_7_11",
-    "answer_int": 11
+    "answer_int": 11,
+    "tts_en": "tts/en/n001.wav",
+    "tts_fr": "tts/fr/n001.wav",
+    "tts_kin": "tts/kin/n001.wav"
+
   },
   {
     "id": "N002",
@@ -229,7 +233,10 @@
     "stem_fr": "Quel nombre est plus grand: 2 ou 5?",
     "stem_kin": "Ni iyihe nimero nini: 2 cyangwa 5?",
     "visual": "compare_2_5",
-    "answer_int": 5
+    "answer_int": 5,
+    "tts_en": "tts/en/n002.wav",
+    "tts_fr": "tts/fr/n002.wav",
+    "tts_kin": "tts/kin/n002.wav"
   },
   {
     "id": "N003",
@@ -240,7 +247,10 @@
     "stem_fr": "Quel nombre est plus grand: 19 ou 18?",
     "stem_kin": "Ni iyihe nimero nini: 19 cyangwa 18?",
     "visual": "compare_19_18",
-    "answer_int": 19
+    "answer_int": 19,
+    "tts_en": "tts/en/n003.wav",
+    "tts_fr": "tts/fr/n003.wav",
+    "tts_kin": "tts/kin/n003.wav"
   },
   {
     "id": "N004",
@@ -251,7 +261,10 @@
     "stem_fr": "Quel nombre est plus grand: 17 ou 4?",
     "stem_kin": "Ni iyihe nimero nini: 17 cyangwa 4?",
     "visual": "compare_17_4",
-    "answer_int": 17
+    "answer_int": 17,
+    "tts_en": "tts/en/n004.wav",
+    "tts_fr": "tts/fr/n004.wav",
+    "tts_kin": "tts/kin/n004.wav"
   },
   {
     "id": "N005",
@@ -262,7 +275,10 @@
     "stem_fr": "Quel nombre est plus grand: 11 ou 9?",
     "stem_kin": "Ni iyihe nimero nini: 11 cyangwa 9?",
     "visual": "compare_11_9",
-    "answer_int": 11
+    "answer_int": 11,
+    "tts_en": "tts/en/n005.wav",
+    "tts_fr": "tts/fr/n005.wav",
+    "tts_kin": "tts/kin/n005.wav"
   },
   {
     "id": "N006",
@@ -273,7 +289,10 @@
     "stem_fr": "Quel nombre est plus grand: 12 ou 18?",
     "stem_kin": "Ni iyihe nimero nini: 12 cyangwa 18?",
     "visual": "compare_12_18",
-    "answer_int": 18
+    "answer_int": 18,
+    "tts_en": "tts/en/n006.wav",
+    "tts_fr": "tts/fr/n006.wav",
+    "tts_kin": "tts/kin/n006.wav"
   },
   {
     "id": "N007",
@@ -284,7 +303,10 @@
     "stem_fr": "Quel nombre est plus grand: 11 ou 4?",
     "stem_kin": "Ni iyihe nimero nini: 11 cyangwa 4?",
     "visual": "compare_11_4",
-    "answer_int": 11
+    "answer_int": 11,
+    "tts_en": "tts/en/n007.wav",
+    "tts_fr": "tts/fr/n007.wav",
+    "tts_kin": "tts/kin/n007.wav"
   },
   {
     "id": "N008",
@@ -295,7 +317,10 @@
     "stem_fr": "Quel nombre est plus grand: 18 ou 17?",
     "stem_kin": "Ni iyihe nimero nini: 18 cyangwa 17?",
     "visual": "compare_18_17",
-    "answer_int": 18
+    "answer_int": 18,
+    "tts_en": "tts/en/n008.wav",
+    "tts_fr": "tts/fr/n008.wav",
+    "tts_kin": "tts/kin/n008.wav"
   },
   {
     "id": "N009",
@@ -306,7 +331,10 @@
     "stem_fr": "Quel nombre est plus grand: 2 ou 18?",
     "stem_kin": "Ni iyihe nimero nini: 2 cyangwa 18?",
     "visual": "compare_2_18",
-    "answer_int": 18
+    "answer_int": 18,
+    "tts_en": "tts/en/n009.wav",
+    "tts_fr": "tts/fr/n009.wav",
+    "tts_kin": "tts/kin/n009.wav"
   },
   {
     "id": "N010",
@@ -317,7 +345,10 @@
     "stem_fr": "Quel nombre est plus grand: 10 ou 16?",
     "stem_kin": "Ni iyihe nimero nini: 10 cyangwa 16?",
     "visual": "compare_10_16",
-    "answer_int": 16
+    "answer_int": 16,
+    "tts_en": "tts/en/n010.wav",
+    "tts_fr": "tts/fr/n010.wav",
+    "tts_kin": "tts/kin/n010.wav"
   },
   {
     "id": "N011",
@@ -328,7 +359,10 @@
     "stem_fr": "Quel nombre est plus grand: 15 ou 16?",
     "stem_kin": "Ni iyihe nimero nini: 15 cyangwa 16?",
     "visual": "compare_15_16",
-    "answer_int": 16
+    "answer_int": 16,
+    "tts_en": "tts/en/n011.wav",
+    "tts_fr": "tts/fr/n011.wav",
+    "tts_kin": "tts/kin/n011.wav"
   },
   {
     "id": "N012",
@@ -339,7 +373,10 @@
     "stem_fr": "Quel nombre est plus grand: 14 ou 13?",
     "stem_kin": "Ni iyihe nimero nini: 14 cyangwa 13?",
     "visual": "compare_14_13",
-    "answer_int": 14
+    "answer_int": 14,
+    "tts_en": "tts/en/n012.wav",
+    "tts_fr": "tts/fr/n012.wav",
+    "tts_kin": "tts/kin/n012.wav"
   },
   {
     "id": "N013",
@@ -350,7 +387,10 @@
     "stem_fr": "Quel nombre est plus grand: 3 ou 5?",
     "stem_kin": "Ni iyihe nimero nini: 3 cyangwa 5?",
     "visual": "compare_3_5",
-    "answer_int": 5
+    "answer_int": 5,
+    "tts_en": "tts/en/n013.wav",
+    "tts_fr": "tts/fr/n013.wav",
+    "tts_kin": "tts/kin/n013.wav"
   },
   {
     "id": "N014",
@@ -361,7 +401,10 @@
     "stem_fr": "Quel nombre est plus grand: 19 ou 14?",
     "stem_kin": "Ni iyihe nimero nini: 19 cyangwa 14?",
     "visual": "compare_19_14",
-    "answer_int": 19
+    "answer_int": 19,
+    "tts_en": "tts/en/n014.wav",
+    "tts_fr": "tts/fr/n014.wav",
+    "tts_kin": "tts/kin/n014.wav"
   },
   {
     "id": "N015",
@@ -372,7 +415,11 @@
     "stem_fr": "Quel nombre est plus grand: 6 ou 19?",
     "stem_kin": "Ni iyihe nimero nini: 6 cyangwa 19?",
     "visual": "compare_6_19",
-    "answer_int": 19
+    "answer_int": 19,
+    "tts_en": "tts/en/n015.wav",
+    "tts_fr": "tts/fr/n015.wav",
+    "tts_kin": "tts/kin/n015.wav"
+
   },
   {
     "id": "A001",
@@ -383,7 +430,10 @@
     "stem_fr": "14 plus 5 égale?",
     "stem_kin": "14 + 5 ni angahe?",
     "visual": "add_14_5",
-    "answer_int": 19
+    "answer_int": 19,
+    "tts_en": "tts/en/a001.wav",
+    "tts_fr": "tts/fr/a001.wav",
+    "tts_kin": "tts/kin/a001.wav"
   },
   {
     "id": "A002",
@@ -394,7 +444,10 @@
     "stem_fr": "16 plus 7 égale?",
     "stem_kin": "16 + 7 ni angahe?",
     "visual": "add_16_7",
-    "answer_int": 23
+    "answer_int": 23,
+    "tts_en": "tts/en/a002.wav",
+    "tts_fr": "tts/fr/a002.wav",
+    "tts_kin": "tts/kin/a002.wav"
   },
   {
     "id": "A003",
@@ -405,7 +458,10 @@
     "stem_fr": "20 plus 10 égale?",
     "stem_kin": "20 + 10 ni angahe?",
     "visual": "add_20_10",
-    "answer_int": 30
+    "answer_int": 30,
+    "tts_en": "tts/en/a003.wav",
+    "tts_fr": "tts/fr/a003.wav",
+    "tts_kin": "tts/kin/a003.wav"
   },
   {
     "id": "A004",
@@ -416,7 +472,10 @@
     "stem_fr": "15 plus 2 égale?",
     "stem_kin": "15 + 2 ni angahe?",
     "visual": "add_15_2",
-    "answer_int": 17
+    "answer_int": 17,
+    "tts_en": "tts/en/a004.wav",
+    "tts_fr": "tts/fr/a004.wav",
+    "tts_kin": "tts/kin/a004.wav"
   },
   {
     "id": "A005",
@@ -427,7 +486,10 @@
     "stem_fr": "18 plus 3 égale?",
     "stem_kin": "18 + 3 ni angahe?",
     "visual": "add_18_3",
-    "answer_int": 21
+    "answer_int": 21,
+    "tts_en": "tts/en/a005.wav",
+    "tts_fr": "tts/fr/a005.wav",
+    "tts_kin": "tts/kin/a005.wav"
   },
   {
     "id": "A006",
@@ -438,7 +500,10 @@
     "stem_fr": "10 plus 2 égale?",
     "stem_kin": "10 + 2 ni angahe?",
     "visual": "add_10_2",
-    "answer_int": 12
+    "answer_int": 12,
+    "tts_en": "tts/en/a006.wav",
+    "tts_fr": "tts/fr/a006.wav",
+    "tts_kin": "tts/kin/a006.wav"
   },
   {
     "id": "A007",
@@ -449,7 +514,10 @@
     "stem_fr": "6 plus 7 égale?",
     "stem_kin": "6 + 7 ni angahe?",
     "visual": "add_6_7",
-    "answer_int": 13
+    "answer_int": 13,
+    "tts_en": "tts/en/a007.wav",
+    "tts_fr": "tts/fr/a007.wav",
+    "tts_kin": "tts/kin/a007.wav"
   },
   {
     "id": "A008",
@@ -460,7 +528,10 @@
     "stem_fr": "18 plus 2 égale?",
     "stem_kin": "18 + 2 ni angahe?",
     "visual": "add_18_2",
-    "answer_int": 20
+    "answer_int": 20,
+    "tts_en": "tts/en/a008.wav",
+    "tts_fr": "tts/fr/a008.wav",
+    "tts_kin": "tts/kin/a008.wav"
   },
   {
     "id": "A009",
@@ -471,7 +542,10 @@
     "stem_fr": "17 plus 16 égale?",
     "stem_kin": "17 + 16 ni angahe?",
     "visual": "add_17_16",
-    "answer_int": 33
+    "answer_int": 33,
+    "tts_en": "tts/en/a009.wav",
+    "tts_fr": "tts/fr/a009.wav",
+    "tts_kin": "tts/kin/a009.wav"
   },
   {
     "id": "A010",
@@ -482,7 +556,10 @@
     "stem_fr": "1 plus 12 égale?",
     "stem_kin": "1 + 12 ni angahe?",
     "visual": "add_1_12",
-    "answer_int": 13
+    "answer_int": 13,
+    "tts_en": "tts/en/a010.wav",
+    "tts_fr": "tts/fr/a010.wav",
+    "tts_kin": "tts/kin/a010.wav"
   },
   {
     "id": "A011",
@@ -493,7 +570,10 @@
     "stem_fr": "8 plus 13 égale?",
     "stem_kin": "8 + 13 ni angahe?",
     "visual": "add_8_13",
-    "answer_int": 21
+    "answer_int": 21,
+    "tts_en": "tts/en/a011.wav",
+    "tts_fr": "tts/fr/a011.wav",
+    "tts_kin": "tts/kin/a011.wav"
   },
   {
     "id": "A012",
@@ -504,7 +584,10 @@
     "stem_fr": "14 plus 18 égale?",
     "stem_kin": "14 + 18 ni angahe?",
     "visual": "add_14_18",
-    "answer_int": 32
+    "answer_int": 32,
+    "tts_en": "tts/en/a012.wav",
+    "tts_fr": "tts/fr/a012.wav",
+    "tts_kin": "tts/kin/a012.wav"
   },
   {
     "id": "A013",
@@ -515,7 +598,10 @@
     "stem_fr": "3 plus 17 égale?",
     "stem_kin": "3 + 17 ni angahe?",
     "visual": "add_3_17",
-    "answer_int": 20
+    "answer_int": 20,
+    "tts_en": "tts/en/a013.wav",
+    "tts_fr": "tts/fr/a013.wav",
+    "tts_kin": "tts/kin/a013.wav"
   },
   {
     "id": "A014",
@@ -526,7 +612,10 @@
     "stem_fr": "17 plus 14 égale?",
     "stem_kin": "17 + 14 ni angahe?",
     "visual": "add_17_14",
-    "answer_int": 31
+    "answer_int": 31,
+    "tts_en": "tts/en/a014.wav",
+    "tts_fr": "tts/fr/a014.wav",
+    "tts_kin": "tts/kin/a014.wav"
   },
   {
     "id": "A015",
@@ -537,7 +626,10 @@
     "stem_fr": "4 plus 18 égale?",
     "stem_kin": "4 + 18 ni angahe?",
     "visual": "add_4_18",
-    "answer_int": 22
+    "answer_int": 22,
+    "tts_en": "tts/en/a015.wav",
+    "tts_fr": "tts/fr/a015.wav",
+    "tts_kin": "tts/kin/a015.wav"
   },
   {
     "id": "S001",
@@ -548,7 +640,10 @@
     "stem_fr": "5 moins 3 égale?",
     "stem_kin": "5 - 3 ni angahe?",
     "visual": "sub_5_3",
-    "answer_int": 2
+    "answer_int": 2,
+    "tts_en": "tts/en/s001.wav",
+    "tts_fr": "tts/fr/s001.wav",
+    "tts_kin": "tts/kin/s001.wav"
   },
   {
     "id": "S002",
@@ -559,7 +654,10 @@
     "stem_fr": "48 moins 20 égale?",
     "stem_kin": "48 - 20 ni angahe?",
     "visual": "sub_48_20",
-    "answer_int": 28
+    "answer_int": 28,
+    "tts_en": "tts/en/s002.wav",
+    "tts_fr": "tts/fr/s002.wav",
+    "tts_kin": "tts/kin/s002.wav"
   },
   {
     "id": "S003",
@@ -570,7 +668,10 @@
     "stem_fr": "28 moins 2 égale?",
     "stem_kin": "28 - 2 ni angahe?",
     "visual": "sub_28_2",
-    "answer_int": 26
+    "answer_int": 26,
+    "tts_en": "tts/en/s003.wav",
+    "tts_fr": "tts/fr/s003.wav",
+    "tts_kin": "tts/kin/s003.wav"
   },
   {
     "id": "S004",
@@ -581,7 +682,10 @@
     "stem_fr": "39 moins 38 égale?",
     "stem_kin": "39 - 38 ni angahe?",
     "visual": "sub_39_38",
-    "answer_int": 1
+    "answer_int": 1,
+    "tts_en": "tts/en/s004.wav",
+    "tts_fr": "tts/fr/s004.wav",
+    "tts_kin": "tts/kin/s004.wav"
   },
   {
     "id": "S005",
@@ -592,7 +696,10 @@
     "stem_fr": "17 moins 6 égale?",
     "stem_kin": "17 - 6 ni angahe?",
     "visual": "sub_17_6",
-    "answer_int": 11
+    "answer_int": 11,
+    "tts_en": "tts/en/s005.wav",
+    "tts_fr": "tts/fr/s005.wav",
+    "tts_kin": "tts/kin/s005.wav"
   },
   {
     "id": "S006",
@@ -603,7 +710,10 @@
     "stem_fr": "29 moins 21 égale?",
     "stem_kin": "29 - 21 ni angahe?",
     "visual": "sub_29_21",
-    "answer_int": 8
+    "answer_int": 8,
+    "tts_en": "tts/en/s006.wav",
+    "tts_fr": "tts/fr/s006.wav",
+    "tts_kin": "tts/kin/s006.wav"
   },
   {
     "id": "S007",
@@ -614,7 +724,10 @@
     "stem_fr": "46 moins 36 égale?",
     "stem_kin": "46 - 36 ni angahe?",
     "visual": "sub_46_36",
-    "answer_int": 10
+    "answer_int": 10,
+    "tts_en": "tts/en/s007.wav",
+    "tts_fr": "tts/fr/s007.wav",
+    "tts_kin": "tts/kin/s007.wav"
   },
   {
     "id": "S008",
@@ -625,7 +738,10 @@
     "stem_fr": "42 moins 10 égale?",
     "stem_kin": "42 - 10 ni angahe?",
     "visual": "sub_42_10",
-    "answer_int": 32
+    "answer_int": 32,
+    "tts_en": "tts/en/s008.wav",
+    "tts_fr": "tts/fr/s008.wav",
+    "tts_kin": "tts/kin/s008.wav"
   },
   {
     "id": "S009",
@@ -636,7 +752,10 @@
     "stem_fr": "24 moins 23 égale?",
     "stem_kin": "24 - 23 ni angahe?",
     "visual": "sub_24_23",
-    "answer_int": 1
+    "answer_int": 1,
+    "tts_en": "tts/en/s009.wav",
+    "tts_fr": "tts/fr/s009.wav",
+    "tts_kin": "tts/kin/s009.wav"
   },
   {
     "id": "S010",
@@ -647,7 +766,10 @@
     "stem_fr": "20 moins 18 égale?",
     "stem_kin": "20 - 18 ni angahe?",
     "visual": "sub_20_18",
-    "answer_int": 2
+    "answer_int": 2,
+    "tts_en": "tts/en/s010.wav",
+    "tts_fr": "tts/fr/s010.wav",
+    "tts_kin": "tts/kin/s010.wav"
   },
   {
     "id": "S011",
@@ -658,7 +780,10 @@
     "stem_fr": "31 moins 4 égale?",
     "stem_kin": "31 - 4 ni angahe?",
     "visual": "sub_31_4",
-    "answer_int": 27
+    "answer_int": 27,
+    "tts_en": "tts/en/s011.wav",
+    "tts_fr": "tts/fr/s011.wav",
+    "tts_kin": "tts/kin/s011.wav"
   },
   {
     "id": "S012",
@@ -669,7 +794,10 @@
     "stem_fr": "34 moins 1 égale?",
     "stem_kin": "34 - 1 ni angahe?",
     "visual": "sub_34_1",
-    "answer_int": 33
+    "answer_int": 33,
+    "tts_en": "tts/en/s012.wav",
+    "tts_fr": "tts/fr/s012.wav",
+    "tts_kin": "tts/kin/s012.wav"
   },
   {
     "id": "S013",
@@ -680,7 +808,10 @@
     "stem_fr": "46 moins 17 égale?",
     "stem_kin": "46 - 17 ni angahe?",
     "visual": "sub_46_17",
-    "answer_int": 29
+    "answer_int": 29,
+    "tts_en": "tts/en/s013.wav",
+    "tts_fr": "tts/fr/s013.wav",
+    "tts_kin": "tts/kin/s013.wav"
   },
   {
     "id": "S014",
@@ -691,7 +822,10 @@
     "stem_fr": "18 moins 13 égale?",
     "stem_kin": "18 - 13 ni angahe?",
     "visual": "sub_18_13",
-    "answer_int": 5
+    "answer_int": 5,
+    "tts_en": "tts/en/s014.wav",
+    "tts_fr": "tts/fr/s014.wav",
+    "tts_kin": "tts/kin/s014.wav"
   },
   {
     "id": "S015",
@@ -702,7 +836,10 @@
     "stem_fr": "8 moins 4 égale?",
     "stem_kin": "8 - 4 ni angahe?",
     "visual": "sub_8_4",
-    "answer_int": 4
+    "answer_int": 4,
+    "tts_en": "tts/en/s015.wav",
+    "tts_fr": "tts/fr/s015.wav",
+    "tts_kin": "tts/kin/s015.wav"
   },
   {
     "id": "W001",
@@ -713,7 +850,10 @@
     "stem_fr": "Tu as 50 tomates et tu en trouves 4 de plus. Combien de tomates as-tu?",
     "stem_kin": "Ufite inyanya 50 ukabona izindi 4. Ubu ufite inyanya zingahe?",
     "visual": "wp_add_50_4_tomatoes",
-    "answer_int": 54
+    "answer_int": 54,
+    "tts_en": "tts/en/w001.wav",
+    "tts_fr": "tts/fr/w001.wav",
+    "tts_kin": "tts/kin/w001.wav"
   },
   {
     "id": "W002",
@@ -724,7 +864,10 @@
     "stem_fr": "Tu as 44 tomates et tu en trouves 2 de plus. Combien de tomates as-tu?",
     "stem_kin": "Ufite inyanya 44 ukabona izindi 2. Ubu ufite inyanya zingahe?",
     "visual": "wp_add_44_2_tomatoes",
-    "answer_int": 46
+    "answer_int": 46,
+    "tts_en": "tts/en/w002.wav",
+    "tts_fr": "tts/fr/w002.wav",
+    "tts_kin": "tts/kin/w002.wav"
   },
   {
     "id": "W003",
@@ -735,7 +878,10 @@
     "stem_fr": "Tu as 10 chèvres et tu en trouves 8 de plus. Combien de chèvres as-tu?",
     "stem_kin": "Ufite ihene 10 ukabona izindi 8. Ubu ufite ihene zingahe?",
     "visual": "wp_add_10_8_goats",
-    "answer_int": 18
+    "answer_int": 18,
+    "tts_en": "tts/en/w003.wav",
+    "tts_fr": "tts/fr/w003.wav",
+    "tts_kin": "tts/kin/w003.wav"
   },
   {
     "id": "W004",
@@ -746,7 +892,10 @@
     "stem_fr": "Tu as 26 tomates et tu en trouves 7 de plus. Combien de tomates as-tu?",
     "stem_kin": "Ufite inyanya 26 ukabona izindi 7. Ubu ufite inyanya zingahe?",
     "visual": "wp_add_26_7_tomatoes",
-    "answer_int": 33
+    "answer_int": 33,
+    "tts_en": "tts/en/w004.wav",
+    "tts_fr": "tts/fr/w004.wav",
+    "tts_kin": "tts/kin/w004.wav"
   },
   {
     "id": "W005",
@@ -757,7 +906,10 @@
     "stem_fr": "Tu as 18 vaches et tu en trouves 4 de plus. Combien de vaches as-tu?",
     "stem_kin": "Ufite inka 18 ukabona izindi 4. Ubu ufite inka zingahe?",
     "visual": "wp_add_18_4_cows",
-    "answer_int": 22
+    "answer_int": 22,
+    "tts_en": "tts/en/w005.wav",
+    "tts_fr": "tts/fr/w005.wav",
+    "tts_kin": "tts/kin/w005.wav"
   },
   {
     "id": "W006",
@@ -768,7 +920,10 @@
     "stem_fr": "Tu as 32 mangues et tu en trouves 5 de plus. Combien de mangues as-tu?",
     "stem_kin": "Ufite imyembe 32 ukabona izindi 5. Ubu ufite imyembe zingahe?",
     "visual": "wp_add_32_5_mangoes",
-    "answer_int": 37
+    "answer_int": 37,
+    "tts_en": "tts/en/w006.wav",
+    "tts_fr": "tts/fr/w006.wav",
+    "tts_kin": "tts/kin/w006.wav"
   },
   {
     "id": "W007",
@@ -779,7 +934,10 @@
     "stem_fr": "Tu as 48 vaches et tu en trouves 7 de plus. Combien de vaches as-tu?",
     "stem_kin": "Ufite inka 48 ukabona izindi 7. Ubu ufite inka zingahe?",
     "visual": "wp_add_48_7_cows",
-    "answer_int": 55
+    "answer_int": 55,
+    "tts_en": "tts/en/w007.wav",
+    "tts_fr": "tts/fr/w007.wav",
+    "tts_kin": "tts/kin/w007.wav"
   },
   {
     "id": "W008",
@@ -790,7 +948,10 @@
     "stem_fr": "Tu as 37 tomates et tu en trouves 4 de plus. Combien de tomates as-tu?",
     "stem_kin": "Ufite inyanya 37 ukabona izindi 4. Ubu ufite inyanya zingahe?",
     "visual": "wp_add_37_4_tomatoes",
-    "answer_int": 41
+    "answer_int": 41,
+    "tts_en": "tts/en/w008.wav",
+    "tts_fr": "tts/fr/w008.wav",
+    "tts_kin": "tts/kin/w008.wav"
   },
   {
     "id": "W009",
@@ -801,7 +962,10 @@
     "stem_fr": "Tu as 14 tomates et tu en trouves 4 de plus. Combien de tomates as-tu?",
     "stem_kin": "Ufite inyanya 14 ukabona izindi 4. Ubu ufite inyanya zingahe?",
     "visual": "wp_add_14_4_tomatoes",
-    "answer_int": 18
+    "answer_int": 18,
+    "tts_en": "tts/en/w009.wav",
+    "tts_fr": "tts/fr/w009.wav",
+    "tts_kin": "tts/kin/w009.wav"
   },
   {
     "id": "W010",
@@ -812,7 +976,10 @@
     "stem_fr": "Tu as 32 chèvres et tu en trouves 5 de plus. Combien de chèvres as-tu?",
     "stem_kin": "Ufite ihene 32 ukabona izindi 5. Ubu ufite ihene zingahe?",
     "visual": "wp_add_32_5_goats",
-    "answer_int": 37
+    "answer_int": 37,
+    "tts_en": "tts/en/w010.wav",
+    "tts_fr": "tts/fr/w010.wav",
+    "tts_kin": "tts/kin/w010.wav"
   },
   {
     "id": "W011",
@@ -823,7 +990,10 @@
     "stem_fr": "Tu as 28 vaches et tu en trouves 3 de plus. Combien de vaches as-tu?",
     "stem_kin": "Ufite inka 28 ukabona izindi 3. Ubu ufite inka zingahe?",
     "visual": "wp_add_28_3_cows",
-    "answer_int": 31
+    "answer_int": 31,
+    "tts_en": "tts/en/w011.wav",
+    "tts_fr": "tts/fr/w011.wav",
+    "tts_kin": "tts/kin/w011.wav"
   },
   {
     "id": "W012",
@@ -834,7 +1004,10 @@
     "stem_fr": "Tu as 14 vaches et tu en trouves 3 de plus. Combien de vaches as-tu?",
     "stem_kin": "Ufite inka 14 ukabona izindi 3. Ubu ufite inka zingahe?",
     "visual": "wp_add_14_3_cows",
-    "answer_int": 17
+    "answer_int": 17,
+    "tts_en": "tts/en/w012.wav",
+    "tts_fr": "tts/fr/w012.wav",
+    "tts_kin": "tts/kin/w012.wav"
   },
   {
     "id": "W013",
@@ -845,7 +1018,10 @@
     "stem_fr": "Tu as 39 tomates et tu en trouves 4 de plus. Combien de tomates as-tu?",
     "stem_kin": "Ufite inyanya 39 ukabona izindi 4. Ubu ufite inyanya zingahe?",
     "visual": "wp_add_39_4_tomatoes",
-    "answer_int": 43
+    "answer_int": 43,
+    "tts_en": "tts/en/w013.wav",
+    "tts_fr": "tts/fr/w013.wav",
+    "tts_kin": "tts/kin/w013.wav"
   },
   {
     "id": "W014",
@@ -856,7 +1032,10 @@
     "stem_fr": "Tu as 32 vaches et tu en trouves 8 de plus. Combien de vaches as-tu?",
     "stem_kin": "Ufite inka 32 ukabona izindi 8. Ubu ufite inka zingahe?",
     "visual": "wp_add_32_8_cows",
-    "answer_int": 40
+    "answer_int": 40,
+    "tts_en": "tts/en/w014.wav",
+    "tts_fr": "tts/fr/w014.wav",
+    "tts_kin": "tts/kin/w014.wav"
   },
   {
     "id": "W015",
@@ -867,6 +1046,9 @@
     "stem_fr": "Tu as 33 chèvres et tu en trouves 8 de plus. Combien de chèvres as-tu?",
     "stem_kin": "Ufite ihene 33 ukabona izindi 8. Ubu ufite ihene zingahe?",
     "visual": "wp_add_33_8_goats",
-    "answer_int": 41
+    "answer_int": 41,
+    "tts_en": "tts/en/w015.wav",
+    "tts_fr": "tts/fr/w015.wav",
+    "tts_kin": "tts/kin/w015.wav"
   }
 ]

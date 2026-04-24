@@ -1,1 +1,11 @@
 gTTS
+TTS 
+transformers
+torch
+scipy
+Pillow
+librosa
+soundfile
+numpy
+gradio
+num2words
