@@ -2,6 +2,8 @@ import gradio as gr
 import json
 import random
 import os
+import whisper
+import re
 
 # Load the curriculum
 CURRICULUM_PATH = "data/T3.1_Math_Tutor/curriculum_full.json"
@@ -33,18 +35,36 @@ def load_random_item(language):
     # We return: Stem Text, Image, Tutor Audio, and the hidden Answer (for grading later)
     return stem_text, image_path, audio_path, item["answer_int"]
 
-def process_audio(audio_filepath, correct_answer):
-    """
-    This is where the ASR model will go. 
-    For now, it's a dummy function that just acknowledges the recording.
-    """
+asr_model = whisper.load_model("tiny")
+
+def process_audio(audio_filepath, correct_answer, language):
     if not audio_filepath:
-        return "No audio detected."
+        return "No audio detected. Please try again!"
+
+    # 1. Transcribe the audio
+    # We specify the language to help the model be more accurate
+    lang_code = {"English": "en", "French": "fr", "Kinyarwanda": "rw"}.get(language, "en")
+    result = asr_model.transcribe(audio_filepath, language=lang_code)
+    transcription = result["text"].lower().strip()
     
-    # TODO: Pass 'audio_filepath' to Whisper/MMS to get the transcript
-    # TODO: Compare transcript to 'correct_answer'
+    # 2. Extract digits from the transcription
+    # Kids might say "The answer is five" - we just want the "5"
+    numbers_found = re.findall(r'\d+', transcription)
     
-    return f"Audio received! (Next step: Transcribe and check if they said {correct_answer})"
+    # If the model transcribes words like "five", we need to handle that 
+    # (In a full version, we'd use a word-to-number mapper)
+    
+    user_answer = None
+    if numbers_found:
+        user_answer = int(numbers_found[0])
+    
+    # 3. Grade the answer
+    if user_answer == int(correct_answer):
+        feedback = f"✅ Correct! You said '{transcription}'. Well done!"
+    else:
+        feedback = f"❌ Not quite. I heard '{transcription}'. The answer was {correct_answer}."
+        
+    return feedback
 
 # --- Gradio User Interface ---
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
@@ -78,7 +98,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     
     mic_input.stop_recording(
         fn=process_audio,
-        inputs=[mic_input, hidden_answer],
+        inputs=[mic_input, hidden_answer, lang_selector],
         outputs=[feedback_text]
     )
 

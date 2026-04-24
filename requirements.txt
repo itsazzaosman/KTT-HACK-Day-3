@@ -9,3 +9,4 @@ soundfile
 numpy
 gradio
 num2words
+openai-whisper
