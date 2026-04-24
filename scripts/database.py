@@ -12,7 +12,7 @@ def load_key():
             f.write(Fernet.generate_key())
     with open(KEY_FILE, "rb") as f:
         return f.read()
-
+# Initialize the cipher suite with the loaded key
 cipher_suite = Fernet(load_key())
 
 # 2. Database Functions

@@ -29,7 +29,7 @@ An offline, ultra-lightweight AI math tutor designed for 6-year-old learners in 
 **3. Task 7 (Footprint Verification)**
 
 * Total size verified via: `du -sh --exclude=tts .`
-* Result: **~68 MB** (Compliant).
+* Result: **~47 MB** (Compliant).
 
 ## 💻 How to Run (Local or Colab CPU)
 

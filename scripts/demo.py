@@ -8,19 +8,18 @@ import numpy as np
 import librosa
 import numpy as np
 import re
-
-
 from adaptive import KnowledgeTracer
 from database import init_db, log_attempt
 import time
+import whisper
 
 init_db()
 
 kt = KnowledgeTracer()
 current_skill_state = "counting"
-import whisper
 
-# Load the model once at the top of the script
+
+
 asr_model = whisper.load_model("tiny")
 
 # Load the curriculum
@@ -37,11 +36,11 @@ def load_random_item(language):
     lang_map = {"English": "en", "French": "fr", "Kinyarwanda": "kin"}
     lang_code = lang_map[language]
     
-    # 1. Determine target difficulty based on student's past performance
-    # We prioritize 'addition' for this demo, but you can track any skill
+    # Determine target difficulty based on student's past performance
+    # I prioritize 'addition' for this demo, but you can track any skill
     target_difficulty = kt.get_next_difficulty("addition")
     
-    # 2. Filter curriculum by target difficulty
+    # Filter curriculum by target difficulty
     filtered_items = [i for i in curriculum if i['difficulty'] == target_difficulty]
     
     # Fallback if no items match that exact difficulty
@@ -76,42 +75,49 @@ def process_audio(audio_filepath, correct_answer, language):
     start_time = time.time()
 
     try:
-        # 1. ASR Pipeline (Load -> Transcribe)
+        # ASR Pipeline (Load -> Transcribe)
         audio, sr = librosa.load(audio_filepath, sr=16000)
         lang_code = {"English": "en", "French": "fr", "Kinyarwanda": "rw"}.get(language, "en")
         
         result = asr_model.transcribe(audio, language=lang_code, fp16=False)
         transcription = result["text"].lower().strip()
+        detected_lang = result["language"] # Whisper natively detects the language spoken
         
-        # 2. Answer Extraction
+        # Answer Extraction
         numbers_found = re.findall(r'\d+', transcription)
         user_answer = int(numbers_found[0]) if numbers_found else None
         
-        # 3. Logic & Scoring
+        # Logic & Scoring
         is_correct = (user_answer == int(correct_answer))
         
-        # 4. Update Knowledge Tracer and SQLite Database
+        # Update Knowledge Tracer and SQLite Database
         end_time = time.time()
         latency = end_time - start_time
         
         log_attempt(current_skill_state, is_correct, latency)
         new_mastery = kt.update(current_skill_state, is_correct)
         
-        # 5. Formulate Feedback
-        if is_correct:
-            feedback = f"✅ Correct! I heard '{transcription}'. Mastery: {new_mastery:.2f}"
+        # Code-Switching Logic ---
+        # Compare spoken language to target tutor language
+        target_lang = {"English": "en", "French": "fr", "Kinyarwanda": "rw"}.get(language, "en")
+        is_code_switched = (detected_lang != target_lang)
+        
+        feedback_prefix = "✅ Correct!" if is_correct else "❌ Not quite."
+        
+        if is_code_switched and user_answer:
+            # If they spoke a mix, mirror the dominant language but acknowledge the number
+            feedback = f"{feedback_prefix} (Code-Switch Detected!) You used the {detected_lang} word for {user_answer}. Mastery: {new_mastery:.2f}"
         else:
-            feedback = f"❌ I heard '{transcription}'. The answer was {correct_answer}."
+            feedback = f"{feedback_prefix} I heard '{transcription}'. Mastery: {new_mastery:.2f}"
             
         print(f"DEBUG: Feedback Sent | Latency: {latency:.2f}s | Correct: {is_correct}")
         return feedback
 
     except Exception as e:
         print(f"Error during ASR: {e}")
-        return "⚠️ Error processing your voice. Please try speaking again."
+        return "⚠️ Error processing your voice. Please try speaking again."    
     
-    
-    # --- Gradio User Interface ---
+    # Gradio User Interface ---
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 🧮 AI Math Tutor for Early Learners (P1-P3)")
     
@@ -134,7 +140,6 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
             mic_input = gr.Audio(sources=["microphone"], type="filepath", label="Tap to Answer")
             feedback_text = gr.Textbox(label="Tutor Feedback")
             
-    # Actions
 # Actions
     next_btn.click(
         fn=load_random_item,

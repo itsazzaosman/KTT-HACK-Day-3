@@ -15,7 +15,7 @@ def generate_curriculum(num_items_per_skill=15):
         {"en": "tomatoes", "fr": "tomates", "kin": "inyanya", "img_prefix": "tomatoes"}
     ]
 
-    # 1. Counting (Age 5-6, Diff 1-3)
+    # Counting (Age 5-6, Diff 1-3)
     for i in range(1, num_items_per_skill + 1):
         obj = random.choice(items)
         count = random.randint(2, 10)
@@ -34,7 +34,7 @@ def generate_curriculum(num_items_per_skill=15):
             "tts_kin": f"tts/kin/c{i:03d}.wav"
         })
 
-    # 2. Number Sense (Age 6-8, Diff 2-5)
+    # Number Sense (Age 6-8, Diff 2-5)
     for i in range(1, num_items_per_skill + 1):
         n1, n2 = random.sample(range(1, 20), 2)
         ans = max(n1, n2)
@@ -50,7 +50,7 @@ def generate_curriculum(num_items_per_skill=15):
             "answer_int": ans
         })
 
-    # 3. Addition (Age 6-9, Diff 3-8)
+    # Addition (Age 6-9, Diff 3-8)
     for i in range(1, num_items_per_skill + 1):
         n1, n2 = random.randint(1, 20), random.randint(1, 20)
         ans = n1 + n2
@@ -66,7 +66,7 @@ def generate_curriculum(num_items_per_skill=15):
             "answer_int": ans
         })
 
-    # 4. Subtraction (Age 7-9, Diff 3-9)
+    # Subtraction (Age 7-9, Diff 3-9)
     for i in range(1, num_items_per_skill + 1):
         n1 = random.randint(5, 50)
         n2 = random.randint(1, n1 - 1)
@@ -83,7 +83,7 @@ def generate_curriculum(num_items_per_skill=15):
             "answer_int": ans
         })
 
-    # 5. Word Problems (Age 8-9, Diff 5-9)
+    # Word Problems (Age 8-9, Diff 5-9)
     for i in range(1, num_items_per_skill + 1):
         obj = random.choice(items)
         n1 = random.randint(10, 50)
@@ -109,14 +109,14 @@ def generate_curriculum(num_items_per_skill=15):
 
 full_dataset = generate_curriculum(15)
 
-# 1. Define the path
+# Define the path
 output_dir = "data/T3.1_Math_Tutor"
 output_file = os.path.join(output_dir, "curriculum_full.json")
 
-# 2. Create the directories if they don't exist
+# Create the directories if they don't exist
 os.makedirs(output_dir, exist_ok=True)
 
-# 3. Save the file
+# Save the file
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(full_dataset, f, indent=2, ensure_ascii=False)
 
